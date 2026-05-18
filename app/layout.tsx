@@ -20,37 +20,37 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: {
-    default: "Epic Plane – Free Online Browser Game",
-    template: "%s | Epic Plane",
+    default: "I Am Taxi Driver – Free Online Browser Game",
+    template: "%s | I Am Taxi Driver",
   },
   description:
-    "Play Epic Plane online free — Play Epic Plane free online — no download, no account needed. No download, no account needed.",
+    "Play I Am Taxi Driver online free — Play I Am Taxi Driver free online — no download, no account needed. No download, no account needed.",
   keywords: [
-    "Epic Plane",
-    "Epic Plane online",
-    "Epic Plane free",
+    "I Am Taxi Driver",
+    "I Am Taxi Driver online",
+    "I Am Taxi Driver free",
     "free online game",
     "browser game",
     "casual game",
   ],
-  authors: [{ name: "Epic Plane Team" }],
-  creator: "Epic Plane",
-  publisher: "Epic Plane",
-  metadataBase: new URL("https://epicplane.org"),
+  authors: [{ name: "I Am Taxi Driver Team" }],
+  creator: "I Am Taxi Driver",
+  publisher: "I Am Taxi Driver",
+  metadataBase: new URL("https://iamtaxidriver.com"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Epic Plane",
-    title: "Epic Plane – Free Online Browser Game",
+    siteName: "I Am Taxi Driver",
+    title: "I Am Taxi Driver – Free Online Browser Game",
     description:
-      "Play Epic Plane free in your browser — Play Epic Plane free online — no download, no account needed.",
-    url: "https://epicplane.org",
+      "Play I Am Taxi Driver free in your browser — Play I Am Taxi Driver free online — no download, no account needed.",
+    url: "https://iamtaxidriver.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Epic Plane – Free Online Browser Game",
+    title: "I Am Taxi Driver – Free Online Browser Game",
     description:
-      "Play Epic Plane free online — no download, no account needed. Play free online!",
+      "Play I Am Taxi Driver free online — no download, no account needed. Play free online!",
   },
   robots: {
     index: true,
@@ -88,15 +88,15 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "Epic Plane",
-              url: "https://epicplane.org",
+              name: "I Am Taxi Driver",
+              url: "https://iamtaxidriver.com",
               description:
-                "Play Epic Plane free online — no download, no account needed.",
+                "Play I Am Taxi Driver free online — no download, no account needed.",
               potentialAction: {
                 "@type": "SearchAction",
                 target: {
                   "@type": "EntryPoint",
-                  urlTemplate: "https://epicplane.org/blog?q={search_term_string}",
+                  urlTemplate: "https://iamtaxidriver.com/blog?q={search_term_string}",
                 },
                 "query-input": "required name=search_term_string",
               },
@@ -109,16 +109,16 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Epic Plane",
-              url: "https://epicplane.org",
+              name: "I Am Taxi Driver",
+              url: "https://iamtaxidriver.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://epicplane.org/og-image.png",
+                url: "https://iamtaxidriver.com/og-image.png",
               },
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "customer support",
-                url: "https://epicplane.org/contact",
+                url: "https://iamtaxidriver.com/contact",
               },
             }),
           }}

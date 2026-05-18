@@ -1,10 +1,10 @@
-# Epic Plane
+# I Am Taxi Driver
 
-- **Domain:** epicplane.org
-- **Repo:** epicplane
-- **Slug:** epicplane
+- **Domain:** iamtaxidriver.com
+- **Repo:** iamtaxidriver
+- **Slug:** iamtaxidriver
 - **Genre:** Casual
-- **Iframe:** https://epicplane.org
+- **Iframe:** https://iamtaxidriver.com
 
 ## Quick start
 
@@ -20,11 +20,11 @@ To regenerate:
 
 ```bash
 ANTHROPIC_API_KEY=sk-... node ../generate-content.js \
-  --name   "Epic Plane" \
-  --domain "epicplane.org" \
-  --slug   "epicplane" \
+  --name   "I Am Taxi Driver" \
+  --domain "iamtaxidriver.com" \
+  --slug   "iamtaxidriver" \
   --genre  "Casual" \
-  --iframe "https://epicplane.org" \
+  --iframe "https://iamtaxidriver.com" \
   --out    ./content/game.json
 ```
 

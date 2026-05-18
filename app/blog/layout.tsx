@@ -3,8 +3,8 @@ import ArticleSchemaInjector from '../components/ArticleSchemaInjector';
 
 export const metadata: Metadata = {
     title: 'Blog – Tips, News & Insights',
-    description: 'Read the Epic Plane blog for game tips, guides, and the latest updates from our community.',
-    keywords: ['Epic Plane blog', 'game tips', 'game guides', 'game articles'],
+    description: 'Read the I Am Taxi Driver blog for game tips, guides, and the latest updates from our community.',
+    keywords: ['I Am Taxi Driver blog', 'game tips', 'game guides', 'game articles'],
     alternates: {
         canonical: '/blog',
     },
